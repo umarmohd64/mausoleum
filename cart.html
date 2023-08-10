@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <section class="header">
+        <a class="logo_link" href="#">
+            <img class="logo-main" src="./images/same bg logo.png" alt="">
+        </a>
+        <div>
+            <ul class="navbar">
+                <a href="" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="nav-cart"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+            </ul>
+
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+     
+        
+    </section>
+
+    <section class="blog-header" id="cart-header" >
+        <h2>#your_cart</h2>
+        <p>Thanks for shopping with us. Let's checkout!</p>
+    </section>
+
+     <section id="cart" class="section-p1">
+        <table width="100%">
+             <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+             </thead>
+
+             <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle" style="color: red;" ></i></a></td>
+                    <td><img src="./product images/11zon_compressed/Flying MACHINE_6_11zon.png" alt=""></td>
+                    <td>Skinny Mid Rise Grey Jeans</td>
+                    <td>₹999</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle" style="color: red;" ></i></a></td>
+                    <td><img src="./product images/11zon_compressed/Calvin Klein pro_4_11zon.png" alt=""></td>
+                    <td>CK Low Impact Sports Bra</td>
+                    <td>₹2,799</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle" style="color: red;" ></i></a></td>
+                    <td><img src="./product images/11zon_compressed/Hnayen final product_5_11zon.png" alt=""></td>
+                    <td>Modern Laser Cut Hijab</td>
+                    <td>₹3,000</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+             </tbody>
+             
+        </table>
+     </section>
+
+     <section id="cart-add" class="section-p1" >
+        <div id="coupon" >
+             <h3>Apply Coupon</h3>
+             <div>
+                <input type="text" placeholder="Enter Coupon Code">
+                <button class="normal-button" >Apply</button>
+    
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹6,798</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>₹99</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Total Payable</strong></td>
+                    <td><strong>₹6,897</strong></td>
+                </tr>
+            </table>
+
+            <button class="normal-button">Proceed to checkout</button>
+
+        </div>
+
+
+     </section>
+
+
+
+
+    <footer class="foot">
+
+        <div class="col">
+            <img class="logo foot-logo" src="images/logo mausoleum.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address:</strong>  Jamia Millia Islamia, New Delhi, 225001</p>
+            <p> <strong>Phone: </strong> (+91)7510056624 </p>
+            <p> <strong>Hours: </strong> 10:00 am to 19:00 pm / Monday-Saturday</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-github"></i>
+                </div>
+            </div>
+
+        </div>
+
+    
+
+        <div class="col">
+            <h4>About Us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>Install</h4>
+            <p>
+                Download the app now!
+            </p>
+            <div class="downloadlogo">
+                <img class="download-footer-logo" src="images/download logo final.jpg" alt="">
+            </div>
+            <p>Secured Payemnts Gateway</p>
+            <img class="pay-footer-logo" src="images/secured payments.jpg" alt="">
+            
+        </div>
+
+
+
+    </footer>
+    <div class="copyright">
+        <p> © 2023 - Made by <strong>UMAR</strong> </p>
+    </div>
+
+    
+
+
+
+
+
+
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
